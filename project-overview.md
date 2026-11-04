@@ -1,0 +1,41 @@
+# My Homelab
+
+## 1. Project Purpose
+
+My goal is to develop practical experience with Linux, Bash scripting, SSH, network administration, and system management by building and maintaining my own home server.
+
+## 2. Project Goals
+
+- Build a reliable home server.
+- Implement system monitoring and administration tools.
+- Develop custom features and applications.
+- Gain hands-on experience managing a Linux environment.
+
+## 3. Skills I Want to Develop
+
+- Linux administration
+- Networking
+- Bash scripting
+- Docker and containerization
+- Python programming
+- System administration
+- Troubleshooting and problem-solving
+
+## 4. Planned Infrastructure
+
+- **Hardware:** Lenovo ThinkPad T480, 8 GB RAM, 256 GB SSD
+- **Storage:** 1 TB external HDD
+- **Operating System:** Ubuntu Server
+- **Containerization:** Docker
+- **Media Server:** Jellyfin
+- **Custom Development:** Monitoring tools and administration applications
+
+## 5. Learning Approach
+
+I will focus on understanding the fundamentals before moving on to more advanced technologies.
+
+I will experiment, write my own scripts, troubleshoot problems, and learn from mistakes. I may reference online documentation and tutorials, but I will avoid relying on AI to generate code or provide direct solutions. My priority is developing independent problem-solving skills.
+
+## 6. Definition of Success
+
+Success means being able to understand the systems and services running on my server, explain how they work, and independently troubleshoot and resolve problems with minimal assistance.
