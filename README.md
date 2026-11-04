@@ -1,2 +1,14 @@
 # Homelab
-My journey learning Linux server administration, networking, Docker, and infrastructure by building a homelab from scratch.
+
+## Project Overview
+This is my personal homelab project
+
+### Goals
+
+- Learn Linux administration
+- Understand networking
+- Learn Docker
+- Build my own monitoring tools
+
+## Current Status
+Project planning and preparation.
