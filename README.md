@@ -4,21 +4,20 @@
 
 | Component | Details |
 |---|---|
-| Server | Lenovo ThinkPad T480 |
-| Memory | 8 GB RAM |
-| Internal Storage | 256 GB SSD |
-| External Storage | 1 TB HDD |
-| Operating System | Ubuntu Server 24.04.5 LTS |
-| Remote Administration | SSH |
+| Server: | Lenovo ThinkPad T480 |
+| Memory: | 8 GB RAM |
+| Internal Storage: | 256 GB SSD |
+| External Storage: | 1 TB HDD |
+| Operating System: | Ubuntu Server 24.04.5 LTS |
+| Remote Administration: | SSH |
 
 ## Current Status
 
-<badge>In progress</badge>
-
+### In progress:
 - SSH remote administration working.
 - Project documentation
 
-## Planned Services
+## Planned Services:
 
 - Docker and Docker Compose
 - Jellyfin media server
