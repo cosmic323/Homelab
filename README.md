@@ -1,15 +1,5 @@
 # Homelab
 
-A personal homelab project focused on learning Linux administration, networking, system management, and infrastructure through hands-on experience.
-
-## Project Goals
-
-- Develop practical Linux administration skills.
-- Understand networking and remote server management.
-- Learn Docker and containerization.
-- Build custom monitoring and administration tools.
-- Document infrastructure, configurations, and troubleshooting.
-
 ## Hardware and Software
 
 | Component | Details |
@@ -25,10 +15,8 @@ A personal homelab project focused on learning Linux administration, networking,
 
 <badge>In progress</badge>
 
-- Ubuntu Server installed and configured.
 - SSH remote administration working.
-- External storage configured with persistent mounting.
-- Project documentation established.
+- Project documentation
 
 ## Planned Services
 
@@ -41,7 +29,3 @@ A personal homelab project focused on learning Linux administration, networking,
 
 - [Project Overview](project-overview.md)
 - [Technical Documentation](docs/)
-
-## Learning Philosophy
-
-This project emphasizes understanding over simply following instructions. Configurations, experiments, troubleshooting, and lessons learned will be documented throughout development.

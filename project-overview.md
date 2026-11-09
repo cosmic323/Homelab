@@ -30,24 +30,17 @@ My goal is to develop practical experience with Linux, Bash scripting, SSH, netw
 - **External Storage:** 1 TB HDD, ext4, mounted at /srv/media
 - **Administation:** SSH access
 
-## 5. Planned Services
-
-- Docker and Docker Compose
-- Jellyfin media server
-- System monitoring
-- Custom administration tools
-
-## 6. Learning Approach
+## 5. Learning Approach
 
 I will focus on understanding the fundamentals before moving on to more advanced technologies.
 
 I will experiment, write my own scripts, troubleshoot problems, and learn from mistakes. I may reference online documentation and tutorials, but I will avoid relying on AI to generate code or provide direct solutions. My priority is developing independent problem-solving skills.
 
-## 7. Definition of Success
+## 6. Definition of Success
 
 Success means being able to understand the systems and services running on my server, explain how they work, and independently troubleshoot and resolve problems with minimal assistance.
 
-## 8. Project Progress
+## 7. Project Progress
 
 ### Repository and Documentation
 - Created GitHub repository.
