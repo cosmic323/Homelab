@@ -1,5 +1,3 @@
-# Homelab
-
 # Infrastructure Overview
 
 ## 1. Purpose
@@ -36,7 +34,7 @@ The server provides the foundation for hosting applications, managing storage, a
 
 Additional services will be documented as they are deployed.
 
-Detailed hardware specifications ~> [Hardware Inventory](docs/01-hardware-inventory.md)
+Detailed hardware specifications are documented in the [Hardware Inventory](docs/01-hardware-inventory.md).
 
 ## 3. Network Environment
 
