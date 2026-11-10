@@ -1,15 +1,6 @@
 # Infrastructure Overview
 
-## 1. Purpose
-
-This document provides an overview of the homelab infrastructure, including its physical systems, their responsibilities, and how they fit together.
-
-It serves as an entry point for administrators who need to understand the environment before operating, maintaining, or modifying it.
-
-Detailed configuration and operational procedures are maintained in their respective documentation.
-
-
-## 2. Primary Server
+## 1. Primary Server
 
 The Ubuntu Server system is the central machine in the homelab.
 
@@ -36,7 +27,7 @@ Additional services will be documented as they are deployed.
 
 Detailed hardware specifications are documented in the [Hardware Inventory](docs/01-hardware-inventory.md).
 
-## 3. Network Environment
+## 2. Network Environment
 
 The homelab operates on a private local network.
 
@@ -48,7 +39,7 @@ The homelab operates on a private local network.
 
 The Ubuntu server can be administered remotely from the other machines using SSH.
 
-## 4. Documentation Structure
+## 3. Documentation Structure
 
 The repository contains the technical documentation for the environment.
 
@@ -61,7 +52,7 @@ The repository contains the technical documentation for the environment.
 
 Refer to the documentation index in `README.md` to locate detailed procedures and system information.
 
-## 5. Maintenance of This Document
+## 4. Maintenance of This Document
 
 This document should be updated whenever a significant change affects the infrastructure, including:
 
