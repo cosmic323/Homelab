@@ -1,6 +1,6 @@
 # Infrastructure Overview
 
-## 1. Server
+## Server
 
 | Property | Value |
 |---|---|
@@ -12,7 +12,7 @@
 | Internal Storage | 256 GB NVMe SSD |
 | External Storage | 1 TB HDD |
 
-## 2. Network Environment
+## Network Environment
 
 | Property | Value |
 |---|---|
@@ -32,11 +32,9 @@ Connect to the server remotely using:
 ssh cloud@192.168.1.64
 ```
 
-## 3. Storage Configuration
+## Storage Configuration
 
 ### Internal NVMe Storage
-
-The internal NVMe SSD was configured using LVM during installation.
 
 | Device | Size | Purpose |
 |---|---:|---|
@@ -55,8 +53,6 @@ The internal NVMe SSD was configured using LVM during installation.
 | Logical Volume Size | 100 GB |
 | Mount Point | `/` |
 
-The remaining volume group space was left unallocated for future expansion.
-
 ### External Storage
 
 | Property | Value |
@@ -66,18 +62,8 @@ The remaining volume group space was left unallocated for future expansion.
 | Label | `HOMELAB` |
 | Mount Point | `/srv/media` |
 
-## 4. Documentation Structure
 
-| Location | Purpose |
-|---|---|
-| `docs/` | System configuration and operational documentation |
-| `diagrams/` | Infrastructure and architecture diagrams |
-| `screenshots/` | Supporting screenshots |
-| `README.md` | Main documentation entry point |
-
-Refer to the documentation index in `README.md` to locate detailed procedures and system information.
-
-## 5. Maintenance
+## Maintenance
 
 This document should be updated whenever a significant change affects the infrastructure, including:
 
