@@ -1,10 +1,8 @@
 ## Documentation
 
-### Infrastructure Overview
 
 - [Infrastructure Overview](docs/1-infrastructure-overview.md) — Overview of the server, network environment, and storage configuration.
 
-### Technical Documentation
 
 - [Storage Architecture](docs/2-storage-architecture.md) — Detailed information about internal and external storage organization.
 
