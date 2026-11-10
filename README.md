@@ -11,19 +11,6 @@
 | Operating System: | Ubuntu Server 24.04.5 LTS |
 | Remote Administration: | SSH |
 
-## Current Status
-
-### In progress:
-- SSH remote administration working.
-- Project documentation
-
-## Planned Services:
-
-- Docker and Docker Compose
-- Jellyfin media server
-- System monitoring
-- Custom administration applications
-
 ## Documentation
 
 - [Project Overview](project-overview.md)

@@ -30,3 +30,4 @@ flowchart TD
     F --> G["ext4 Filesystem"]
     G --> H["Root Mount Point<br/>/"]
 ```
+
