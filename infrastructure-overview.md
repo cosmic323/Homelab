@@ -2,8 +2,6 @@
 
 ## 1. Primary Server
 
-The Ubuntu Server system is the central machine in the homelab.
-
 | Property | Value |
 |---|---|
 | Hostname | `homelab` |
@@ -14,22 +12,9 @@ The Ubuntu Server system is the central machine in the homelab.
 | Internal Storage | 256 GB NVMe SSD |
 | External Storage | 1 TB HDD |
 
-The server provides the foundation for hosting applications, managing storage, and providing network-accessible services.
-
-### Current Configuration
-
-- Ubuntu Server installed on internal NVMe storage.
-- External HDD mounted at `/srv/media`.
-- SSH available for remote administration.
-- Persistent external storage mounting configured.
-
-Additional services will be documented as they are deployed.
-
 Detailed hardware specifications are documented in the [Hardware Inventory](docs/01-hardware-inventory.md).
 
 ## 2. Network Environment
-
-The homelab operates on a private local network.
 
 | Property | Value |
 |---|---|
@@ -40,8 +25,6 @@ The homelab operates on a private local network.
 The Ubuntu server can be administered remotely from the other machines using SSH.
 
 ## 3. Documentation Structure
-
-The repository contains the technical documentation for the environment.
 
 | Location | Purpose |
 |---|---|
@@ -62,4 +45,4 @@ This document should be updated whenever a significant change affects the infras
 - Changes to machine responsibilities.
 - Addition or removal of systems.
 
-All information should reflect the actual state of the environment.
+*All information should reflect the actual state of the environment.*
