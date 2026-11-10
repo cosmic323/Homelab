@@ -1,6 +1,6 @@
 # Infrastructure Overview
 
-## 1. Primary Server
+## 1. Server
 
 | Property | Value |
 |---|---|
@@ -12,19 +12,61 @@
 | Internal Storage | 256 GB NVMe SSD |
 | External Storage | 1 TB HDD |
 
-Detailed hardware specifications are documented in the [Hardware Inventory](docs/01-hardware-inventory.md).
-
 ## 2. Network Environment
 
 | Property | Value |
 |---|---|
 | Network | `192.168.1.0/24` |
 | Gateway | `192.168.1.254` |
-| Server Address | `192.168.1.64` |
 
-The Ubuntu server can be administered remotely from the other machines using SSH.
+### Remote Administration
 
-## 3. Documentation Structure
+| Property | Value |
+|---|---|
+| Username | `cloud` |
+| Default SSH Port | `22` |
+
+Connect to the server remotely using:
+
+```bash
+ssh cloud@192.168.1.64
+```
+
+## 3. Storage Configuration
+
+### Internal NVMe Storage
+
+The internal NVMe SSD was configured using LVM during installation.
+
+| Device | Size | Purpose |
+|---|---:|---|
+| `/dev/nvme0n1` | 238.5 GB | Primary system drive |
+| `/dev/nvme0n1p1` | 1 GB | EFI System Partition |
+| `/dev/nvme0n1p2` | 2 GB | Boot partition |
+| `/dev/nvme0n1p3` | 235.4 GB | LVM physical volume |
+
+### LVM Configuration
+
+| Component | Value |
+|---|---|
+| Volume Group | `ubuntu-vg` |
+| Logical Volume | `ubuntu-lv` |
+| Filesystem | ext4 |
+| Logical Volume Size | 100 GB |
+| Mount Point | `/` |
+
+The remaining volume group space was left unallocated for future expansion.
+
+### External Storage
+
+| Property | Value |
+|---|---|
+| Capacity | 1 TB HDD |
+| Filesystem | ext4 |
+| Label | `HOMELAB` |
+| Mount Point | `/srv/media` |
+
+## 4. Documentation Structure
 
 | Location | Purpose |
 |---|---|
@@ -35,13 +77,14 @@ The Ubuntu server can be administered remotely from the other machines using SSH
 
 Refer to the documentation index in `README.md` to locate detailed procedures and system information.
 
-## 4. Maintenance of This Document
+## 5. Maintenance
 
 This document should be updated whenever a significant change affects the infrastructure, including:
 
 - Hardware changes or replacements.
 - Operating system changes.
 - Network configuration changes.
+- Storage configuration changes.
 - Changes to machine responsibilities.
 - Addition or removal of systems.
 

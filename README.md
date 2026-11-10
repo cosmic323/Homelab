@@ -2,13 +2,11 @@
 
 ### Infrastructure Overview
 
-- [Infrastructure Overview](infrastructure-overview.md) — General overview of the environment and its organization.
+- [Infrastructure Overview](docs/1-infrastructure-overview.md) — Overview of the server, network environment, and storage configuration.
 
 ### Technical Documentation
 
-- [Hardware Inventory](docs/01-hardware-inventory.md) — Physical systems and hardware specifications.
-- [Ubuntu Server Installation](docs/02-server-installation.md) — Server installation and initial configuration.
-- [Storage Architecture](docs/03-storage-architecture.md) — Internal and external storage organization.
+- [Storage Architecture](docs/2-storage-architecture.md) — Detailed information about internal and external storage organization.
 
 ## Repository Structure
 
@@ -17,3 +15,6 @@
 | `docs/` | Technical and operational documentation |
 | `diagrams/` | Infrastructure diagrams |
 | `screenshots/` | Supporting screenshots |
+
+
+
